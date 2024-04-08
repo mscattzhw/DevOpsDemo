@@ -44,5 +44,11 @@ public class RomanNumeralsTest {
         String result = converter.convertToRoman(6);
         assertEquals("VI", result);
     }
+    @Test
+    public void convertToRoman_7_ReturnsVI() {
+        RomanNumerals converter = new RomanNumerals();
+        String result = converter.convertToRoman(7);
+        assertEquals("VII", result);
+    }
 
 }
