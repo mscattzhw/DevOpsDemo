@@ -38,5 +38,11 @@ public class RomanNumeralsTest {
         String result = converter.convertToRoman(5);
         assertEquals("V", result);
     }
+    @Test
+    public void convertToRoman_6_ReturnsVI() {
+        RomanNumerals converter = new RomanNumerals();
+        String result = converter.convertToRoman(6);
+        assertEquals("VI", result);
+    }
 
 }
