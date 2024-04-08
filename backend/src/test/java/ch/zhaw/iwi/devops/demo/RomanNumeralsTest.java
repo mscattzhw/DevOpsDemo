@@ -61,6 +61,12 @@ public class RomanNumeralsTest {
         RomanNumerals converter = new RomanNumerals();
         String result = converter.convertToRoman(9);
         assertEquals("IX", result);
+    }
+    @Test
+    public void convertToRoman_10_ReturnsX() {
+        RomanNumerals converter = new RomanNumerals();
+        String result = converter.convertToRoman(10);
+        assertEquals("X", result);
     }    
 
 }
