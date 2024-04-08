@@ -12,6 +12,8 @@ public class RomanNumerals {
             return "VII";
         } else if (number == 8) {
             return "VIII";
+        } else if (number == 9) {
+            return "IX";
         }
         String result = "";
         for (int i = 0; i < number; i++) {
