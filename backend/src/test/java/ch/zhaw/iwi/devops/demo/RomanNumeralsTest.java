@@ -19,4 +19,11 @@ public class RomanNumeralsTest {
         String result = converter.convertToRoman(2);
         assertEquals("II", result);
     }
+
+    @Test
+    public void convertToRoman_3_ReturnsIII() {
+        RomanNumerals converter = new RomanNumerals();
+        String result = converter.convertToRoman(3);
+        assertEquals("III", result);
+    }
 }
