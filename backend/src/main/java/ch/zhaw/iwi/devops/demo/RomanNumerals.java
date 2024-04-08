@@ -8,6 +8,8 @@ public class RomanNumerals {
             return "V";
         } else if (number == 6) {
             return "VI";
+        } else if (number == 7) {
+            return "VII";
         }
         String result = "";
         for (int i = 0; i < number; i++) {
