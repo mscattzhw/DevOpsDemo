@@ -55,6 +55,12 @@ public class RomanNumeralsTest {
         RomanNumerals converter = new RomanNumerals();
         String result = converter.convertToRoman(8);
         assertEquals("VIII", result);
+    }
+    @Test
+    public void convertToRoman_9_ReturnsIX() {
+        RomanNumerals converter = new RomanNumerals();
+        String result = converter.convertToRoman(9);
+        assertEquals("IX", result);
     }    
 
 }
