@@ -13,6 +13,10 @@ public class ToDoControllerTest {
         controller.createTodo(1, todo);
         assertEquals(1, controller.count());
         assertEquals(1, controller.todo().size());
+
+        //Bug einfügen
+        assertEquals(2, controller.count());
+        assertEquals(1, controller.todo().size());
     }
 
 }
